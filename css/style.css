@@ -1,0 +1,180 @@
+/* o * serve para resetar asconfigurações padrao */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* padronizando a altura */
+html, body{
+    height: 100%;
+}
+
+/* header */
+
+header {
+    background-color: yellow;
+    width: 100%;
+    padding: 0 2%;
+    height: 50px;
+}
+
+
+.simbolos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 2%;
+}
+
+.simbolos > img {
+    padding: 0 7px;
+}
+
+/* area do formulario */
+
+div.foto-de-fundo {
+    background-color: rgb(252, 215, 233);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    padding: 0 2%;
+
+}
+
+/* texto com a foto viagem */
+
+div.chamada {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    padding: 5px 2%;
+    position: relative;
+    top: 10px;
+}
+
+div.chamada > h2 {
+    color: red;
+    margin-top: 5px;
+}
+
+div.chamada > p {
+    color: rgb(153, 99, 99);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*formulario */
+
+div.form {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(237, 199, 138);
+    padding: 5px 2%;
+}
+
+div.form > h2 {
+    margin-top: 25px;
+}
+
+div.form > p {
+    margin-top: 8px;
+}
+
+div.form .wraper {
+    margin-top: 10px;
+}
+
+.cover  input[type=text] {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.cover input[type=submit] {
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0 0 50px;
+    cursor: pointer;
+}
+
+/* menu vermelho */
+
+.menu {
+    background-color: red;
+    width: 77.5%;
+    margin-left: 400px;
+    margin-top: 10px;
+    height: 60px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 30px;
+}
+
+.menu > img {
+    height: 50px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.menu > input[type=text] {
+    width: 350px;
+}
+
+/* conteudo do site */
+
+.conteudo{
+    background-color:white;
+    width: 77.5%;
+    height: 591px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.texto {
+    height: 591px;
+    width: 58%;
+    background-color: white;
+    margin-left: 470px;
+    text-align: center;
+}
+
+.texto > h2{
+    color: red;
+    padding-top: 20px;
+    font-size: 40px;
+    
+}
+
+.texto > p {
+    text-align: justify;
+    padding-top: 20px;
+    color: rgb(153, 99, 99);
+}
+
+.image {
+    height: 591px;
+    width: 35%;
+    left: 25px;
+    background-image: url(../imagens/festa.png);
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -591px;
+  
+}
