@@ -12,7 +12,7 @@ html, body{
 /* header */
 
 header {
-    background-color: yellow;
+    background-color: rgb(255, 189, 53);
     width: 100%;
     padding: 0 2%;
     height: 50px;
@@ -33,13 +33,12 @@ header {
 /* area do formulario */
 
 div.foto-de-fundo {
-    background-color: rgb(252, 215, 233);
+    background-image: url(../imagens/imagemTurma.png);
     background-position: center;
     background-size: cover;
     height: 250px;
     width: 100%;
     padding: 0 2%;
-
 }
 
 /* texto com a foto viagem */
@@ -54,12 +53,12 @@ div.chamada {
 }
 
 div.chamada > h2 {
-    color: red;
+    color: black;
     margin-top: 5px;
 }
 
 div.chamada > p {
-    color: rgb(153, 99, 99);
+    color: black;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -70,7 +69,7 @@ div.chamada > p {
 div.form {
     width: 300px;
     height: 400px;
-    background-color: rgb(237, 199, 138);
+    background-color: rgba(38, 55, 93, 1);;
     padding: 5px 2%;
 }
 
@@ -96,7 +95,7 @@ div.form .wraper {
 }
 
 .cover input[type=submit] {
-    background-color: red;
+    background-color: blue;
     text-transform: uppercase;
     color: white;
     font-size: 30px;
@@ -104,6 +103,7 @@ div.form .wraper {
     height: 50px;
     margin: 20px 0 0 50px;
     cursor: pointer;
+    border: 0;
 }
 
 /* menu vermelho */
@@ -155,23 +155,23 @@ div.form .wraper {
 }
 
 .texto > h2{
-    color: red;
-    padding-top: 20px;
-    font-size: 40px;
+    color: black;
+    padding-top: 15px;
+    font-size: 30px;
     
 }
 
 .texto > p {
     text-align: justify;
-    padding-top: 20px;
-    color: rgb(153, 99, 99);
+    padding-top: 15px;
+    color: black;
 }
 
 .image {
     height: 591px;
     width: 35%;
     left: 25px;
-    background-image: url(../imagens/festa.png);
+    background-image: url(../imagens/formatura.png);
     position: relative;
     background-size: 100% 100%;
     background-repeat: no-repeat;
