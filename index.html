@@ -1,106 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 
-<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <head>
-        <title>Apê do Estudante</title>
-        <link href="css/style.css" rel="stylesheet" />
-        <meta charset="utf-8" />
-        <meta charset="description" content=" " />
-        <meta charset="keywords" content=" " />
-        <meta charset="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <meta charset="author" content="Bruno Ricardo" />
-    </head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <body>
-        
-        <header>
-                <div class="simbolos">
-                    <img src="imagens/linkedin.png" />
-                    <img src="imagens/youtube.png" />
-                    <img src="imagens/whatsapp.png" />
-                    <img src="imagens/facebook.png" />
-                    <img src="imagens/instagram.png" />
-                </div><!--logo-->
+    <link rel="stylesheet" type="text/css" href="index_style.css">
+
+    <title>ApÊ do Estudante</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="blog-header py-3">
+            <div class="nav-scroller py-1 mb-2">
+                <!-- <nav class="nav d-flex justify-content-between">
+                    <a class="p-2 text-muted" href="#">Blog</a>
+                    <a class="p-2 text-muted" href="#">Dicas</a>
+                    <a class="p-2 text-muted" href="#">Estágios e Empregos</a>
+                    <a class="p-2 text-muted" href="#">Contato</a>
+                </nav> -->
+            </div>
         </header>
 
-
-        <section class="cover">
+        <div id="jumbotron-principal" class="jumbotron p-4 p-md-5 text-white rounded">
             
-            <div class="foto-de-fundo">
-            
+            <div class="row mb-2">
 
-                <div class="chamada">
-                 <h2>Pronto para morarem uma república ?</h2>
-                    <p>As férias de verão são a época perfeita para explorar as paixões que ficaram esquecidas durante o semestre por causa da falta de tempo. É possível fazer atividades dentro ou fora de casa, como redecorar o quarto, fazer um bazar ou uma festa do pijama. Aproveite o tempo quente para ir nadar ou andar de bicicleta à noite e pense com carinho na ideia de colocar algumas metas em dia, como conhecer o campus da universidade que pretende fazer ou até conseguir um bico.</p>
-
-                    <img src="imagens/alunos.png", width="300px" height="230px" />
-
-                </div><!--chamada-->
-
-                <div class="form">
-                    <h2>Receba nosso conteudo!</h2>
-                    <p>É simples e fácil. Deixe o seu nome, e-mail e telefone que mandaremos as novidades mais quente do mundo das universidades.</p>
-
-                    <form action="POST" data-netlify="true" >
-                        <div class="wraper">
-                        <input type="text" name="Nome Completo" required placeholder="Nome" />
+                <div class="col-sm-5 col-md-6">
+                    <h1 class="display-4 font-italic">Tudo que você precisa saber sobre hospedagem estudantil</h1>
+                    <p class="lead my-3">As melhores dicas para morar com qualidade e conseguir mais tempo para os estudos.</p>
+                    <!-- <p class="lead mb-0"><a href="./posts/tudo_que_precisa_saber.html" class="text-white font-weight-bold">Continue lendo...</a></p> -->
+                </div>
+                
+                <div id="div_form" class="col-sm-5 col-md-6">
+                
+                    <form method="POST" data-netlify="true">
+                    
+                        <div class="form-group">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
                         </div>
                         
-                        <div class="wraper">
-                        <input type="text" name="Email" required placeholder="E-mail" />
+                        <div class="form-group">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="E-mail">
+                            </div>
                         </div>
-
-                        <div class="wraper">
-                        <input type="submit" name="acao" value="Enviar" />
+                            
+                        <div class="col">
+                            <button type="submit" class="btn btn-light">Enviar</button>
                         </div>
-
                     </form>
-                    
-                </div><!--form-->
 
+                </div>
+            </div>
+        </div>
 
-            
-            </div><!--foto-de-fundo-->
-            
-        
-        </section><!--cover-->
-
-        <div class="menu">
+        <div class="row mb-2">
            
-
-             
-        </div><!--menu-->
-
-       
-        <section class="conteudo">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Saindo de casa</strong>
+                        <h3 class="mb-0">Passei na faculdade, e agora?</h3>
+                        <div class="mb-1 text-muted">Ago 19</div>
+                        <p class="card-text mb-auto">Aqui nesse post te contamos como você pode superar o desafio de sair de casa para estudar fora. Te explicamos o lado bom e ruim de morar em uma república e como escolher o melhor modelo de hospedagem estudantil.</p>
+                        <a href="./posts/passei_na_faculdade.html" class="stretched-link">Continue lendo</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <!-- <img src="./img/Saindo de casa.jpg" alt="Smiley face" height="250" width="200"> -->
+                    </div>
+                </div>
+            </div>
             
-            <div class="texto">
-                <h2>Pronto para morar em uma república? Passei na faculdade e agora onde vou morar?</h2>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Quero aprender</strong>
+                        <h3 class="mb-0">Vagas de estágio e emprego</h3>
+                        <div class="mb-1 text-muted">Ago 19</div>
+                        <p class="mb-auto">A gente sabe que todo estudante quer colocar a mão na massa e sonha com a empresa em que quer estagiar. Vem ver quais são as melhores vagas de estágio e emprego para quem está doido para aprender.
+                            </p>
+                        <a href="./posts/vagas.html" class="stretched-link">Continue lendo</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <!-- <img src="./img/Saindo de casa.jpg" alt="Smiley face" height="250" width="200"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <p>
-                    Passar na faculdade não é só um grande passo para vida universitária. Com essa conquista começam as verdadeiras mudanças, casa, cidade, estado ou até mesmo país. 
-                    Quando estamos em período de vestibular a única preocupação é se dedicar e pleitear uma vaga na faculdade escolhida. Isso acontecendo começam as pesquisas de onde morar, alguns sem condições tentam entrar nas moradias cedidas pelas próprias universidades e outros acabam optando por morar em repúblicas. 
-                    Morar em república tem vários pontos positivos o maior deles é pagar um valor simbólico em relação ao custo benefício isso ajuda e muito as pessoas que estão sem dinheiro, tem a questão de conhecer pessoas diferentes, participar das festas e se desenvolver como pessoa. 
-                    Porém como nem tudo são flores existe a parte onde todo esse conto de fadas acaba. Dividir o mesmo teto com pessoas com educação, manias, criações, culturas totalmente diferentes das suas não é fácil. 
-                    Vivenciei essa experiência por cinco anos e costumo falar que conviver dentro dessa realidade é como se vivesse dentro deum carrinho de montanha russa sempre vai ter seus altos e baixos. 
-                    Sempre que comentou com alguém que não conhece como funciona essa realidade sempre pensam que morar em república é como se você estivesse dentro do filme American Pie e posso falar com total propriedade que não é dessa forma que ás coisas acontecem. Realmente tem toda parte de festa em relação a casa e a faculdade, mas antes de tudo isso vem toda uma questão de regras de boa convivência e a partir de tudo isso vem os conflitos. 
-                    Toda república tem uma rotina dentro das normas estabelecidas com seus moradores, onde morei por exemplo tudo era alinhado e todo morador tinha sua obrigação da semana. Mas nem sempre ás coisas ocorrem conforme combinado algumas por conta do dia a dia corrido e outras pela falta de responsabilidade de alguém. Dentro de tudo isso começam a surgir ás inimizades dentro do grupo pois quem sempre colabora acaba cobrando aquele que sempre esquece de fazer. 
-                    Por isso é sempre bom levar em consideração as possibilidades podemos dar muita sorte e conviver com perfeita harmonia e passar aquele período de experiência sensacional ou ter que se retirar e acabar procurando um outro lugar para residir. 
-                    Dividir um lugar é bacana, porém tudo vai da disposição em relação ao momento. Temos ótimas opções em relação a moradia estudantil com valores próximos ao aluguel de uma república e os pacotes oferecidos são bem atrativos.</p>
+        <!-- 2 lista de postagens-->
+        <div class="row mb-2">
+           
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Dicas quentinhas</strong>
+                            <h3 class="mb-0">15 cursos online (e em português) para avançar na carreira</h3>
+                            <div class="mb-1 text-muted">Ago 19</div>
+                            <p class="card-text mb-auto">O seu aprendizado pode ir além da sala de aula. Que tal complementar seu conhecimento com cursos online e alavancar sua carreira?
+                                 Nesta matéria da revista Exame, você pode encontrar 15 cursos que vão turbinar seu currículo.
+                                </p>
+                            <a href="./posts/cursos.html" class="stretched-link">Continue lendo</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <!-- <img src="./img/Saindo de casa.jpg" alt="Smiley face" height="250" width="200"> -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Novos Conceitos</strong>
+                            <h3 class="mb-0">Coliving, Coworking e Costudying. Você sabe o que é? Sabe onde eles estão? </h3>
+                            <div class="mb-1 text-muted">Ago 20</div>
+                            <p class="mb-auto">Neste post nós te explicamos estes novos conceitos que estão cada vez mais atuais. Um sistema mais econômico, prático e moderno, que pode te ajudar a ter experiências enriquecedoras.
+                               </p>
+                            <a href="./posts/coliving.html  " class="stretched-link">Continue lendo</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <!-- <img src="./img/Saindo de casa.jpg" alt="Smiley face" height="250" width="200"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            </div><!--texto-->
 
-            <div class="image">
-            
-            </div><!--image-->
 
-        </section><!--conteudo-->
-  
-            
-    </body>
+    </div> <!-- container-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
-
-
-
