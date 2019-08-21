@@ -171,8 +171,11 @@
         var date = currentDate.getDate();
         var month = currentDate.getMonth(); //Be careful! January is 0 not 1
         var year = currentDate.getFullYear();
+        var hora = currentDate.getHours();
+        var minutos = currentDate.getMinutes();
+        var seg = currentDate.getSeconds();
 
-        var dateString = date + "-" +(month + 1) + "-" + year;
+        var dateString = year + "-" + (month + 1) + "-" + date + "  " + hora + ":" + minutos + ":" + seg;
 
         userData.value = dateString
 
