@@ -63,7 +63,7 @@
 
                         <div class="form-group">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Data">
+                                <input id="userData" type="text" class="form-control" placeholder="Data">
                             </div>
                         </div>
                             
@@ -167,6 +167,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+        <script> 
+            var userData = document.getElementById("userData"); 
+     
+            userData.value = new Date();
+        </script>
 
 
 </body>
