@@ -66,6 +66,8 @@
                         </div>
                     </form>
 
+                    
+
                 </div>
             </div>
         </div>
@@ -163,9 +165,16 @@
         crossorigin="anonymous"></script>
 
         <script> 
-            var userData = document.getElementById("userData"); 
-     
-            userData.value = new Date();
+        var userData = document.getElementById("userData"); 
+
+        var date = currentDate.getDate();
+        var month = currentDate.getMonth(); //Be careful! January is 0 not 1
+        var year = currentDate.getFullYear();
+
+        var dateString = date + "-" +(month + 1) + "-" + year;
+
+        userData.value = dateString
+
         </script>
 
 
